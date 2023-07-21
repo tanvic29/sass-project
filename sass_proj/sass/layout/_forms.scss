@@ -1,0 +1,15 @@
+
+    form{
+        width:100vw;
+        input[type=text],select{
+            padding:10px;
+            display:inline-flex;
+            width:22vw;
+            margin:5px;
+        }
+        input[type=submit]
+        {
+            padding:10px;
+            margin-left:10px
+        }
+    }

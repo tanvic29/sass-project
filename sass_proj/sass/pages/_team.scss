@@ -1,0 +1,22 @@
+.team{
+    padding-top: 30px;
+    text-align: center;
+
+    .card--span
+    {
+        display:flex;
+        justify-content: center;
+        margin:10px;
+    }
+    .card--div{
+        margin:7px;
+        border-radius: 1%;
+        border: solid black;
+
+    }
+    .card--name
+    {
+        background-color: $primary_1;
+        color:$primary_2
+    }
+}

@@ -1,0 +1,22 @@
+.section{
+    padding-top:30px;
+    background-color: $primary_1;
+    color:$primary_2;
+    .section--div{
+        text-align: center;
+    }
+    .flex--span{
+        padding:20px;
+        display:flex;
+    }
+    .span--div{
+        padding:20px;
+        width:100vw;
+        h1{
+            text-align: center;
+        }
+        h5{
+            text-align: center;
+        }
+    }
+}

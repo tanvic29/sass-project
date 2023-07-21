@@ -1,0 +1,22 @@
+@mixin flexprop($par1){
+    box-shadow: 0.10rem 0.20rem  beige;
+            border: 0.09rem solid rgba(244, 239, 239, 0.8);
+            padding: $par1;
+            text-align: center;
+            
+            h4 {
+                padding-top: $par1;
+            }
+
+            p {
+                padding-top: 2rem;
+                
+            }
+
+}
+
+@mixin flexbox{
+    display: flex;
+        align-items: center;
+}
+

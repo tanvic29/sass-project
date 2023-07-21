@@ -1,0 +1,50 @@
+.about--div{
+        
+
+    h2 {
+
+        text-align: center;
+        padding-bottom: 10px;
+        @extend %helper;
+    }
+
+    p {
+        text-align: center;
+        padding-bottom: 20px;
+
+    }
+
+    .flex--container {
+        display: flex;
+
+
+
+        
+        justify-content: center;
+        min-height: 10vh;
+        width: 50%;
+        margin: 0 auto;
+    
+
+    }
+
+    .flex--item1 {
+        
+        @include flexprop(1 rem);
+
+    }
+    .flex--item2{
+        
+        
+        @include flexprop(1 rem);
+        
+        
+
+    }
+    .flex--item3 {
+        @include flexprop(1 rem);
+    }
+
+
+
+}

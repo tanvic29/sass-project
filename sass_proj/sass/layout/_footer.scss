@@ -1,0 +1,40 @@
+footer{
+        
+    padding:20px;
+    display:flex;
+    .footer--div{
+        display:flex;
+        padding-right: 40px;
+        
+    }
+    .flex--div{
+        display:flex;
+        gap:70px;
+        form{
+            
+            input,button{
+                padding:10px;
+            }
+        }
+
+        
+        
+    }
+    ul{
+        padding-right:70px;
+        padding-top:3px;
+        font-size: medium;
+        li{
+            color:black;
+            font-size:medium;
+            
+
+        }
+
+    }
+    .links--div{
+        display:flex;
+    }
+
+    
+}

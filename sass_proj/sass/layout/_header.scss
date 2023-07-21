@@ -1,0 +1,19 @@
+header {
+    @include flexbox;
+    h1 {
+        padding-left: 1rem;
+        padding-right: 20rem
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-right: 1rem;
+
+        h3 {
+            padding-left: 1rem;
+            padding-right: 2rem;
+        }
+    }
+}

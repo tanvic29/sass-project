@@ -1,0 +1,16 @@
+.industry-section{
+    padding-top: 30px;
+    text-align: center;
+    h2{
+        padding:1rem;
+        @extend %helper;
+    }
+    .industry--span{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .industry--div{
+        flex: 1 0 26%;
+        margin:20px;
+    }
+}

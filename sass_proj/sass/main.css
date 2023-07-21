@@ -1,0 +1,269 @@
+.industry-section h2, .about--div h2 {
+  text-decoration: underline;
+  text-decoration-color: #770ed9;
+  padding-top: 20px;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+}
+footer .footer--div {
+  display: flex;
+  padding-right: 40px;
+}
+footer .flex--div {
+  display: flex;
+  gap: 70px;
+}
+footer .flex--div form input, footer .flex--div form button {
+  padding: 10px;
+}
+footer ul {
+  padding-right: 70px;
+  padding-top: 3px;
+  font-size: medium;
+}
+footer ul li {
+  color: black;
+  font-size: medium;
+}
+footer .links--div {
+  display: flex;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  padding-left: 1rem;
+  padding-right: 20rem;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 1rem;
+}
+header div h3 {
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+form {
+  width: 100vw;
+}
+form input[type=text], form select {
+  padding: 10px;
+  display: inline-flex;
+  width: 22vw;
+  margin: 5px;
+}
+form input[type=submit] {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  position: sticky;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5%;
+  color: #edeaf1;
+  position: relative;
+}
+li a {
+  color: #edeaf1;
+}
+li a:hover {
+  background-color: rgb(99, 97, 94);
+}
+
+.section {
+  padding-top: 30px;
+  background-color: #2a044d;
+  color: #edeaf1;
+}
+.section .section--div {
+  text-align: center;
+}
+.section .flex--span {
+  padding: 20px;
+  display: flex;
+}
+.section .span--div {
+  padding: 20px;
+  width: 100vw;
+}
+.section .span--div h1 {
+  text-align: center;
+}
+.section .span--div h5 {
+  text-align: center;
+}
+
+.about--div h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.about--div p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.about--div .flex--container {
+  display: flex;
+  justify-content: center;
+  min-height: 10vh;
+  width: 50%;
+  margin: 0 auto;
+}
+.about--div .flex--item1 {
+  box-shadow: 0.1rem 0.2rem beige;
+  border: 0.09rem solid rgba(244, 239, 239, 0.8);
+  padding: 1 rem;
+  text-align: center;
+}
+.about--div .flex--item1 h4 {
+  padding-top: 1 rem;
+}
+.about--div .flex--item1 p {
+  padding-top: 2rem;
+}
+.about--div .flex--item2 {
+  box-shadow: 0.1rem 0.2rem beige;
+  border: 0.09rem solid rgba(244, 239, 239, 0.8);
+  padding: 1 rem;
+  text-align: center;
+}
+.about--div .flex--item2 h4 {
+  padding-top: 1 rem;
+}
+.about--div .flex--item2 p {
+  padding-top: 2rem;
+}
+.about--div .flex--item3 {
+  box-shadow: 0.1rem 0.2rem beige;
+  border: 0.09rem solid rgba(244, 239, 239, 0.8);
+  padding: 1 rem;
+  text-align: center;
+}
+.about--div .flex--item3 h4 {
+  padding-top: 1 rem;
+}
+.about--div .flex--item3 p {
+  padding-top: 2rem;
+}
+
+.pic--div {
+  padding-left: 50px;
+  padding-top: 90px;
+}
+.pic--div h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(19, 11, 1);
+  justify-content: left;
+  padding-top: 70px;
+  font-size: 40px;
+}
+.pic--div div {
+  padding-top: 20px;
+}
+
+.quote--div {
+  background-color: #2a044d;
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+.quote--div .container {
+  color: #edeaf1;
+  padding-left: 20px;
+}
+.quote--div .button--container {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  padding: 10px;
+}
+.quote--div .button--container .button1 {
+  background-color: #edeaf1;
+  color: black;
+}
+
+.industry-section {
+  padding-top: 30px;
+  text-align: center;
+}
+.industry-section h2 {
+  padding: 1rem;
+}
+.industry-section .industry--span {
+  display: flex;
+  flex-wrap: wrap;
+}
+.industry-section .industry--div {
+  flex: 1 0 26%;
+  margin: 20px;
+}
+
+.team {
+  padding-top: 30px;
+  text-align: center;
+}
+.team .card--span {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.team .card--div {
+  margin: 7px;
+  border-radius: 1%;
+  border: solid black;
+}
+.team .card--name {
+  background-color: #2a044d;
+  color: #edeaf1;
+}
+
+button {
+  padding: 20px;
+  color: #edeaf1;
+  background-color: #2a044d;
+}
+
+nav {
+  background-color: #2a044d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+body main {
+  height: 100vh;
+  background-image: url("https://previews.123rf.com/images/gpointstudio/gpointstudio1609/gpointstudio160900330/64875120-busy-but-happy-man-at-work.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0px;
+}
+
+.call-section {
+  text-align: center;
+  background-color: #2a044d;
+  color: #edeaf1;
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
